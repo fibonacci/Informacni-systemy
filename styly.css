@@ -1,0 +1,162 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('images/textura.gif');
+    font-family: "Georgia", "New York CE", "utopia", "serif";
+    font-size: 90%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+.page{
+    width: 800px;
+    margin: auto;
+    padding-bottom: 25px;
+    background: white;
+}
+
+.page h2{
+    text-align: center;
+    background-image: url('images/pozadi.gif');
+    padding: 30px 0;
+    font-size: 175%;
+}
+
+.page h2 a{
+    color: #333;
+    text-decoration: none;
+}
+
+.page h2 a:hover{
+    background: none;
+    text-decoration: underline;
+    color: #333;
+}
+
+.page a{
+    color: #AD5429;
+}
+
+.page a:hover{
+    background-color: #AD5429;
+    color: white;
+}
+
+.page .article{
+    margin: 25px 75px;
+    text-align: justify;
+}
+
+.page .author, .page .tags {
+    text-align: right;
+    margin-right:100px;
+    font-size: 80%;
+}
+
+.header {
+    background-image: url('images/header.png');
+    height: 180px;
+}
+
+.page h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 250%;
+    margin: 0 0;
+    padding: 10px 0 20px 0;
+}
+
+.adminlink{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.adminlink a{
+    color: white;
+}
+
+.adminlink a:hover{
+    text-decoration: none;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    margin: 25px auto;
+}
+
+td, th{
+    padding: 10px;
+}
+
+form {
+    width: 750px;
+    margin: 25px auto;
+}
+
+textarea{
+    width: 600px;
+    height: 300px;
+}
+
+input, select {
+    width: 300px;
+}
+
+input:focus, textarea:focus{
+    background-color: #eef;
+}
+
+label{
+    margin-top: 15px;
+    display:block;
+}
+
+.submit input{
+    height: 50px;
+    font-size: 200%;
+}
+
+.submit{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.warning{
+    text-align: center;
+    font-weight: bold;
+}
+
+.error{
+    color: red;
+}
+
+.ok{
+    color: blue;
+}
+
+.menu li{
+    float:left;
+    display:block;
+}
+
+.menu a{
+    display:block;
+    padding: 10px 30px;
+}
+
+.menu{
+    text-align:center;
+}
+
+.cleaner{
+    clear:both;
+}
+
+.empty {
+    border: 2px solid red;
+}
