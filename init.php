@@ -8,6 +8,5 @@ function __autoload($class_name) {
 
 require_once 'config.php';
 dibi::connect($dtbConfig);
-
 setup::createTables();
 ?>
